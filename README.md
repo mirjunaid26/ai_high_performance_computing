@@ -2,7 +2,7 @@
 
 This repository contains research projects focused on analyzing and reproducing performance benchmarks for distributed deep learning frameworks on high-performance computing (HPC) clusters, with particular emphasis on NVIDIA H100 GPU architectures.
 
-## 🎯 Repository Overview
+## Repository Overview
 
 This repository serves as a comprehensive resource for:
 - **Performance analysis** of state-of-the-art GPU architectures
@@ -24,7 +24,7 @@ ai_high_performance_computing/
     └── requirements.txt
 ```
 
-## 🔬 Research Projects
+## Research Projects
 
 ### 1. CNN Performance Analysis (2025)
 **Focus**: Large-scale performance analysis of distributed deep learning frameworks for convolutional neural networks
@@ -44,7 +44,7 @@ ai_high_performance_computing/
 - NVLink interconnect performance
 - Power efficiency analysis
 
-## 🖥️ NVIDIA H100 GPU Architecture
+## NVIDIA H100 GPU Architecture
 
 ### Technical Specifications
 - **Architecture**: Hopper (4th Gen Tensor Cores)
@@ -59,7 +59,7 @@ ai_high_performance_computing/
 - **Confidential Computing**: Hardware-level security
 - **Enhanced Memory**: 3x bandwidth improvement over A100
 
-## 🏗️ HPC Cluster Computing Fundamentals
+## HPC Cluster Computing Fundamentals
 
 ### What is HPC?
 High Performance Computing (HPC) refers to the practice of aggregating computing power to deliver higher performance than typical desktop computers and workstations. In AI/ML contexts, HPC enables:
@@ -115,7 +115,7 @@ High Performance Computing (HPC) refers to the practice of aggregating computing
 - Load balancing inefficiencies
 - Framework-specific optimizations
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - NVIDIA H100 GPUs (recommended) or compatible CUDA GPUs
@@ -151,7 +151,7 @@ python cluster_setup.py
 python benchmark_resnet50.py --batch-size 256 --epochs 5
 ```
 
-## 📊 Benchmark Suite
+## Benchmark Suite
 
 ### Available Benchmarks
 - **ResNet-50**: Image classification scaling performance
@@ -166,7 +166,7 @@ python benchmark_resnet50.py --batch-size 256 --epochs 5
 - **Power Consumption**: Energy efficiency analysis
 - **Communication Overhead**: Inter-GPU data transfer costs
 
-## 🔧 Configuration
+## Configuration
 
 ### Cluster Configuration
 The `cluster_setup.py` script automatically detects:
@@ -182,7 +182,7 @@ Key parameters for reproducible results:
 - **Data Pipeline**: Efficient data loading and preprocessing
 - **Mixed Precision**: FP16/BF16 for optimal performance
 
-## 📈 Expected Results
+## Expected Results
 
 ### H100 Performance Targets
 Based on NVIDIA specifications and research literature:
@@ -193,7 +193,7 @@ Based on NVIDIA specifications and research literature:
 | BERT-Base | ~1,200 seq/s | ~2,280 seq/s | ~4,320 seq/s | ~8,160 seq/s |
 | GPT-3 175B | Memory bound | Distributed | Multi-node | Multi-node |
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/new-benchmark`)
@@ -201,7 +201,7 @@ Based on NVIDIA specifications and research literature:
 4. Push to the branch (`git push origin feature/new-benchmark`)
 5. Create a Pull Request
 
-## 📚 References
+## References
 
 ### Research Papers
 - "Large scale performance analysis of distributed deep learning frameworks for convolutional neural networks" (2025)
@@ -217,11 +217,11 @@ Based on NVIDIA specifications and research literature:
 - [SLURM Workload Manager](https://slurm.schedmd.com/)
 - [InfiniBand Trade Association](https://www.infinibandta.org/)
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📧 Contact
+## Contact
 
 For questions about this research or collaboration opportunities:
 - **Repository**: [ai_high_performance_computing](https://github.com/mirjunaid26/ai_high_performance_computing)
